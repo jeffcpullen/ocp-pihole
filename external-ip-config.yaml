@@ -1,0 +1,9 @@
+apiVersion: config.openshift.io/v1
+kind: Network
+metadata:
+  name: cluster
+spec:
+  externalIP:
+    policy:
+      allowedCIDRs:
+      - 10.220.3.0/24
