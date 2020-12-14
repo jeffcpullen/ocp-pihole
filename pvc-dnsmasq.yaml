@@ -9,6 +9,3 @@ spec:
   resources:
     requests:
       storage: 500Mi
-  selector:
-    matchLabels:
-      directory: dnsmasq.d
